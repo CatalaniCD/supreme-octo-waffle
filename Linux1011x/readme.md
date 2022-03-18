@@ -1,6 +1,6 @@
 # Linux101.1x : Shell Programming
 
-### [Unix / Linux OS](https://github.com/CatalaniCD/supreme-octo-waffle/blob/main/Linux1011x/linux_unix.md)
+### [Unix / Linux OS](https://github.com/CatalaniCD/supreme-octo-waffle/tree/main/Linux1011x/unix_linux)
 
 ### [Bash : Unix Shell and Command Language](https://github.com/CatalaniCD/supreme-octo-waffle/blob/main/Linux1011x/bash.md)
 
