@@ -1,7 +1,5 @@
 # Unix / Linux
 
-### [Bash : Unix shell and command language](https://github.com/CatalaniCD/computer_science/tree/main/6.%20operating_systems/bash)
-
 ## Unix
 * Birth : 1970, AT&T Labs, led by Kenneth Thompson and Dennis Ritchie
 * Written in high level language, typically C
