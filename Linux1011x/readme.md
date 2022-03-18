@@ -2,7 +2,7 @@
 
 ### [Unix / Linux OS](https://github.com/CatalaniCD/supreme-octo-waffle/tree/main/Linux1011x/unix_linux)
 
-### [Bash : Unix Shell and Command Language](https://github.com/CatalaniCD/supreme-octo-waffle/blob/main/Linux1011x/bash.md)
+### [Bash : Unix Shell and Command Language](https://github.com/CatalaniCD/supreme-octo-waffle/blob/main/Linux1011x/bash)
 
 ### [Certificate](https://courses.edx.org/certificates/3ac9d51cc10d42088dda3cfeb8f74931)
 
