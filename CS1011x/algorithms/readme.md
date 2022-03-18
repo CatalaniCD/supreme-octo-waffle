@@ -1,6 +1,6 @@
 # Solve it by Computer, R.G Dromey
 
-### 1. [Computer Problem Solving](https://github.com/CatalaniCD/computer_science/blob/main/0.%20algorithms/algorithms.md)
+### [1. Computer Problem Solving](https://github.com/CatalaniCD/supreme-octo-waffle/blob/main/CS1011x/algorithms/computer_problem_solving.md)
     1.1 Introduction
     1.2 The problem-solving aspect
     1.3 Top-Down Design
