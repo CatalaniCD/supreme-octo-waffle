@@ -165,7 +165,23 @@
     - Avoid ambiguos specifications
     - Catch inputs and inform it in an appropiate manner
     1.4.4 | Debugging of programs
+    - Detecting logical errors by adding print statements in strategic points in the computation
+    - Simplest way to implement debugging is to have a boolean varaible (e.g _debug_) which is set to true when the verbose debugging output for the program is required
+    - Best practice : Work the program through by hand before ever attempting to execute it
+    - This will catch most errors
+    - Check each module or isolated task for typical input conditions
+    - Use of 2-dim table consisting of two steps executed against all the variables and tests used in the section of the program in consideration
+    - Update each variable or test value
+    - Ensure to follow a stright line along the path of execution
+    - Rule : When debugging avoid assumptions
     1.4.5 | Program Testing
+    - Test whether or not a program will handle all variations of the problem it was designed
+    - Will it cope the limiting or unusual cases ? (Boundary cases)
+    - Test : Solve the smallest problem possible
+    - It is often not possible or necessary to write programs that handle all input conditions
+    - Wherever possible programs should be accompanied by input or output assertions
+    - It is not always practical to implement programs that can handle all possible input conditions
+    - Build inte a program mechanisms that allow it to gracefully and informatively respond to the user when it receives input conditions it was not designed to handle
 ### 1.5 | Program Verification
     1.5.1 | Computer model for program execution
     1.5.2 | Input and output assertions
