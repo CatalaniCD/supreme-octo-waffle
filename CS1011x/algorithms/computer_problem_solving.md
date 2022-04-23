@@ -185,9 +185,23 @@
     - Design algorithms to be general and handle a whole class of problems rather than just one specific case
     - Use fixed constants only when necessary
 ### 1.5 | Program Verification
-    - 
+    - More than half of effort and resources are spent in correcting errors and modifications
+    - Creation of clearly written code at the time of program development
+    - Top-down design can serve as very useful aid to write readable and understandable programs
+    - Application of a systematic procedure to determine program correctness
+    - Program verification : application of mathematical proof techniques to establish that the output from arbitrary inputs is in accord with formally defined output specifications
+    - Best Practice : develop the proof in a top-down fashion along with the top-down development
     1.5.1 | Computer model for program execution
+    - Program verification requires test cases, that is { input, ouput } pairs
+    - Execution path that follows for a given input conditions
+    - The written implementation may have whole set of execution paths
+    - Each instruction change the computation state, or make a test on the state
+    - The tests are used to branch the sequential flow of execution
+    - This model for program execution provides us with a foundation to construct correct proofs of algotihms
     1.5.2 | Input and output assertions
+    - Provide specifications about the inputs and ouputs
+    - Input assertions, output assertions
+    - Assertions are constraints to the values 
     1.5.3 | Implications and simbolic execution
     1.5.4 | Verification of straight-line program segments
     1.5.5 | Verification of program segments with branches
