@@ -182,7 +182,10 @@
     - Wherever possible programs should be accompanied by input or output assertions
     - It is not always practical to implement programs that can handle all possible input conditions
     - Build inte a program mechanisms that allow it to gracefully and informatively respond to the user when it receives input conditions it was not designed to handle
+    - Design algorithms to be general and handle a whole class of problems rather than just one specific case
+    - Use fixed constants only when necessary
 ### 1.5 | Program Verification
+    - 
     1.5.1 | Computer model for program execution
     1.5.2 | Input and output assertions
     1.5.3 | Implications and simbolic execution
