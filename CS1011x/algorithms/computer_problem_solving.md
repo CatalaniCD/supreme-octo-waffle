@@ -145,15 +145,18 @@
           - case of while index if array[i-1] < [i],  monotonically increase i, else break
     
 ### 1.4 | Implementation of Algorithms
+
     - The Implementation of algorithms designed in a top-down fashion should ve an almost mechanical process
      * Top-Bottom Rule
      - If an algorithm has been properly designed the path of execution should flow in a straight line from top to bottom
      - Programs implemented this way are easier to understand, modifty and debug
+     
     1.4.1 | Use of procedures to emphasize the modularity
     - Modalirize the program, improve development and readability
     - Follow top-down design
     - Allow us to implement a set of independent procedures to perform specific and well-defined tasks
     - Use of dummy procedures to create the program flow
+    
     1.4.2 | Choice of variable names
     - Choose appropiate variable and constant names
     - Program becomes self-documenting
@@ -164,6 +167,7 @@
     - Document for people unfamiliar with the process and input requirements
     - Avoid ambiguos specifications
     - Catch inputs and inform it in an appropiate manner
+    
     1.4.4 | Debugging of programs
     - Detecting logical errors by adding print statements in strategic points in the computation
     - Simplest way to implement debugging is to have a boolean varaible (e.g _debug_) which is set to true when the verbose debugging output for the program is required
@@ -174,6 +178,7 @@
     - Update each variable or test value
     - Ensure to follow a stright line along the path of execution
     - Rule : When debugging avoid assumptions
+    
     1.4.5 | Program Testing
     - Test whether or not a program will handle all variations of the problem it was designed
     - Will it cope the limiting or unusual cases ? (Boundary cases)
@@ -184,13 +189,16 @@
     - Build inte a program mechanisms that allow it to gracefully and informatively respond to the user when it receives input conditions it was not designed to handle
     - Design algorithms to be general and handle a whole class of problems rather than just one specific case
     - Use fixed constants only when necessary
+    
 ### 1.5 | Program Verification
+
     - More than half of effort and resources are spent in correcting errors and modifications
     - Creation of clearly written code at the time of program development
     - Top-down design can serve as very useful aid to write readable and understandable programs
     - Application of a systematic procedure to determine program correctness
     - Program verification : application of mathematical proof techniques to establish that the output from arbitrary inputs is in accord with formally defined output specifications
     - Best Practice : develop the proof in a top-down fashion along with the top-down development
+    
     1.5.1 | Computer model for program execution
     - Program verification requires test cases, that is { input, ouput } pairs
     - Execution path that follows for a given input conditions
@@ -198,24 +206,42 @@
     - Each instruction change the computation state, or make a test on the state
     - The tests are used to branch the sequential flow of execution
     - This model for program execution provides us with a foundation to construct correct proofs of algotihms
+    
     1.5.2 | Input and output assertions
     - Provide specifications about the inputs and ouputs
     - Input assertions, output assertions
     - Assertions are constraints to the values 
+    
     1.5.3 | Implications and simbolic execution
     - Conditional applied to input, { if input not in constrainst, continue }
     - Symbolic execution refers to the sets used as input, output
     - Add intermediate assertions to IO
     - Best Practices : Use straight line segment, branching segments, loop segments
     - VC(A-B) : Verification segment from A to B
+    
     1.5.4 | Verification of straight-line program segments
     - Evaluate variables at the end of the segment
+    
     1.5.5 | Verification of program segments with branches
     - Evaluate {True, False} branching
     - Assertion for 'True', Assertion for 'False'
+    
     1.5.6 | Verification of program segments with loops
+    - Assertion : Loop invariant, property that captures the progressive computational role fo the loop, and remain true always
+    - Show that the loop invariant is true initially : VC(A-B)
+    - Precondition : use input assertion
+    - Show that the loop invariant is false after the loop execution
+    - Postcondition : use output assertion
+    
     1.5.7 | Verification of program segments that employ arrays
+    - Apply 1.5.6
+    
     1.5.8 | Proof of termination
+    - Loop Termination
+    - Property of a data that guarantees termination : Sentinel
+    - Terminate from an Epsilon Expression. Expression that includes variables modified in the loop
+    - Termination conditions : TC(A), TC(B)
+    
 ### 1.6 | Efficiency of algorithms
     1.6.1 | Redundant computations
     1.6.2 | Referencing array elements
