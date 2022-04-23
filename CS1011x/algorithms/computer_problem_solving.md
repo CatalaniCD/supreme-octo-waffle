@@ -203,8 +203,16 @@
     - Input assertions, output assertions
     - Assertions are constraints to the values 
     1.5.3 | Implications and simbolic execution
+    - Conditional applied to input, { if input not in constrainst, continue }
+    - Symbolic execution refers to the sets used as input, output
+    - Add intermediate assertions to IO
+    - Best Practices : Use straight line segment, branching segments, loop segments
+    - VC(A-B) : Verification segment from A to B
     1.5.4 | Verification of straight-line program segments
+    - Evaluate variables at the end of the segment
     1.5.5 | Verification of program segments with branches
+    - Evaluate {True, False} branching
+    - Assertion for 'True', Assertion for 'False'
     1.5.6 | Verification of program segments with loops
     1.5.7 | Verification of program segments that employ arrays
     1.5.8 | Proof of termination
