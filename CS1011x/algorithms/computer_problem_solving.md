@@ -243,8 +243,22 @@
     - Termination conditions : TC(A), TC(B)
     
 ### 1.6 | Efficiency of algorithms
+
+    - Tied to design, implementation, and analysis of algorithms
+    - Every algorithm may use computer resources to complete a task
+    - Resources more relevant in relation to efficiency are central processor time (CPU time) and internal memory.
+    - Desirable to design economic algorithms (CPU and Memory)
+    - Design Habits, Inherent complexity of the Problem.
+    - Each problem has its own characteristics, demand specific responses
+  
     1.6.1 | Redundant computations
+    - Redundant computations or unnecessary storage
+    - Serious when embedded within a loop
+    - Most common mistake in loops, recalculate part of the expression that remains constant in the loop
+    - Eliminate redundancies
+    
     1.6.2 | Referencing array elements
+    
     1.6.3 | Inneficiency due to late termination
     1.6.4 | Early detection of desired output conditions
     1.6.5 | Trading storage for efficiency gains
