@@ -145,9 +145,25 @@
           - case of while index if array[i-1] < [i],  monotonically increase i, else break
     
 ### 1.4 | Implementation of Algorithms
+    - The Implementation of algorithms designed in a top-down fashion should ve an almost mechanical process
+     * Top-Bottom Rule
+     - If an algorithm has been properly designed the path of execution should flow in a straight line from top to bottom
+     - Programs implemented this way are easier to understand, modifty and debug
     1.4.1 | Use of procedures to emphasize the modularity
+    - Modalirize the program, improve development and readability
+    - Follow top-down design
+    - Allow us to implement a set of independent procedures to perform specific and well-defined tasks
+    - Use of dummy procedures to create the program flow
     1.4.2 | Choice of variable names
+    - Choose appropiate variable and constant names
+    - Program becomes self-documenting
+    - Helpful : clear definition of all variables and constants at the start of the program
     1.4.3 | Documentation of programs
+    - Associate a brief and accurate comment at procedure's begin
+    - Add information that the program shows to the user during execution
+    - Document for people unfamiliar with the process and input requirements
+    - Avoid ambiguos specifications
+    - Catch inputs and inform it in an appropiate manner
     1.4.4 | Debugging of programs
     1.4.5 | Program Testing
 ### 1.5 | Program Verification
