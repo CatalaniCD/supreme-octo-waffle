@@ -10,4 +10,4 @@ The research program in Education Technology attempts to evolve the most effecti
 
 [Linux101x.1x : Shell Programming](https://github.com/CatalaniCD/supreme-octo-waffle/tree/main/Linux1011x)
 
-[CS101.1x: Programming Basics](https://github.com/CatalaniCD/supreme-octo-waffle/tree/main/CS1011x)
+[CS101.1x : Programming Basics](https://github.com/CatalaniCD/supreme-octo-waffle/tree/main/CS1011x)
